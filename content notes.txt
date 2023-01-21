@@ -1,0 +1,26 @@
+Here the source codes and code-based products from the manuscript by Zhengyu Xia are made available.
+
+If you have any questions, please context Zhengyu Xia (zhyxia@hotmail.com).
+
+-----
+
+What is contained in this package:
+
+"ERA3.R" is an R code file that processes raw ERA5 datasets to formats of 12 monthly means and 1.0-degree gridded values. It outputs "ERA3.RData".
+
+"UTrack OMS.ipynb" is a Jupyter Notebook Python code file that computes the OMS ratio (“operc”), OMS SST, and OMS RH for both direct OMS and 1st cascading OMS.
+The monthly outputs are stored in folders “direct OMS outputs” and “1st cascading OMS outputs”. 
+
+"direct OMS plotting.R" and "direct and 1st cascading OMS plotting.R" are R code files that reproduce the Figures 1 and S3, respectively.
+
+“animation1.gif” and “animation2.gif” are additional animation products for visualization.
+“animation1.gif” shows how SST and oceanic RH over oceans and how moisture source regions of “five regions” of Figure 3 change seasonally. The outlines of moisture source regions represent the threshold of 90% precipitationshed area (see Keys et al. 2012, Biogeosciences). 
+“animation2.gif” is a zoom-in of seasonal changes in OMS SST and RH For Switzerland area.
+
+-----
+
+UTrack datasets are not available in this package. You may need to download data yourself with the link provided in the original paper (Tuinenburg et al., 2020; Earth Syst. Sci. Data) in order to run "UTrack OMS.ipynb".
+
+ERA5 datasets are not available in this package and are required to run "ERA3.R". However, their outputs have been stored in "ERA3.RData".
+
+You may need to change the codes of file directory in order to read the code inputs and run the codes on your computer.
