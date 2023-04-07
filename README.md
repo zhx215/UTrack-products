@@ -1,1 +1,1 @@
-Source codes and code-based products in the manuscript by Xia.
+Source codes and code-based products in the GRL manuscript by Xia.
